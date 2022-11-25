@@ -13,7 +13,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection:`postgres://postgres:12345@localhost:5433/express_api`,
+    connection:`postgres://postgres:sha123@localhost:5433/express_api`,
     migration:{
       directory:path.join(BASE_URL,'migrations')
     },
